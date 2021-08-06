@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background-color: #fbc472;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: black;
+    font-family:' Lato', sans-serif ;
+    height: 50px;
+    font-size: 24px;
+    color: thistle;
+}
+
+nav img{
+    display: flex;
+    width: 50px    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: 30px;
+}
+
+.container img{
+    height: 300px;
+}
+
+.bar1{
+    background-color: #fda31b;
+    height: 2px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.disco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: blanchedalmond;
+    
+}
+
+footer p{
+    font-size: 10px;
+    padding-left: 25px;
+    flex-grow: 1;
+}
+
+footer a{
+    text-decoration:none ;
+    color: blanchedalmond;
+    flex-grow: 3;
+    font-family: 16px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.link{
+    align-items: center;    
+}
+
+@media (max-width:600px) {
+    nav{
+        height: 30px;
+        font-size: 18px;
+    }
+
+    nav img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .disco h2{
+        
+        font-size: 18px;
+    }
+
+    .disco p{
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    footer{
+        flex-direction: row;
+        height: 35px;
+    }
+
+    footer p{
+       font-size: 8px;
+       margin-left: 1px;
+       padding-left: 1px;
+       flex: 3;
+    }
+ 
+    footer a{
+        
+       font-size: 10px;
+       align-items: center;
+    }
+}
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
